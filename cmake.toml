@@ -7,6 +7,7 @@ name = "Qt5CMakeTemplate"
 version = "0.1.0"
 description = "Simple template for Qt5 to get you started"
 include-after = ["cmake/Qt5Helpers.cmake"]
+msvc-runtime = "static"
 
 [find-package]
 Qt5 = { components = ["Widgets"] }
